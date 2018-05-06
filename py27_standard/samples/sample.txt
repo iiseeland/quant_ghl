@@ -1,0 +1,4 @@
+this is ghli's book
+start learn python.
+
+then, i should learn tensflow.

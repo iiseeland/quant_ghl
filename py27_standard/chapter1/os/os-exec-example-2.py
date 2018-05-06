@@ -1,0 +1,17 @@
+﻿# -*- coding:utf-8 -*-
+# Example 1-36. 使用 os 模块调用其他程序 (Unix)
+
+import os 
+import sys 
+ 
+def run(program, *args): 
+    pid = os.fork() 
+    if not pid: 
+        os.execvp(program, (program,) +  args) 
+    return os.wait()[0] #???
+ 
+run("python", "hello.py") 
+ 
+print "goodbye"
+
+
