@@ -1,2 +1,5 @@
 eclipse.preferences.version=1
 encoding//pycode_util/numpy_example.py=utf-8
+encoding//pycode_util/pandas_dataframe_example.py=utf-8
+encoding//pycode_util/pandas_dataframe_op_example.py=utf-8
+encoding//pycode_util/pandas_resample_example.py=utf-8
