@@ -6,7 +6,6 @@ Created on 2018
 '''
 import pandas as pd
 import numpy as np
-from bokeh.layouts import column
 #import MySQLdb
 
 pydates = ['2016-01-06', '2016-01-07', '2016-01-08', '2016-01-09', '2016-01-10', '2016-01-11' ]
