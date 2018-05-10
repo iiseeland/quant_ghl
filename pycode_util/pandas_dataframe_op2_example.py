@@ -27,6 +27,30 @@ print ("df1 * df2 ==> \n", df1 * df2, sep='')
 print ("df1.div(df2, fill_value=0) ==>\n", df1.div(df2, fill_value=0), sep='')
 
 
+#pd.DataFrame.apply(func, axis=0)
+
+print (np.random.rand(6,4))
+print (np.random.randn(6,4))
+df0 = pd.DataFrame(np.random.rand(6,4), index = pd.date_range('2016-01-06', periods=6), columns=list('ABCD'))
+print (df0)
+
+print (df0.apply(max, axis=0))
+
+f = lambda x:x.max()-x.min()
+print (df0.apply(f, axis=1))
+
+# 缺失值处理
+df3 = df1.mul(df2, fill_value=0)
+print (df3)
+print (df3.isnull())
+print (df3.notnull())
+
+print (df3.A[df3.A.notnull()])
+
+
+
+
+
 
 
 
