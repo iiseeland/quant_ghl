@@ -1,5 +1,15 @@
 eclipse.preferences.version=1
+encoding//pycode_util/matplot_hist_charts_example.py=utf-8
+encoding//pycode_util/matplotlib_axes_example.py=utf-8
+encoding//pycode_util/matplotlib_bar_charts_example.py=utf-8
+encoding//pycode_util/matplotlib_base_example.py=utf-8
+encoding//pycode_util/matplotlib_example.py=utf-8
+encoding//pycode_util/matplotlib_pieplot__example.py=utf-8
+encoding//pycode_util/matplotlib_subplot_example.py=utf-8
 encoding//pycode_util/numpy_example.py=utf-8
 encoding//pycode_util/pandas_dataframe_example.py=utf-8
+encoding//pycode_util/pandas_dataframe_op2_example.py=utf-8
 encoding//pycode_util/pandas_dataframe_op_example.py=utf-8
 encoding//pycode_util/pandas_resample_example.py=utf-8
+encoding//pycode_util/pandas_series_example.py=utf-8
+encoding//quant_py/quant14_0.py=utf-8
